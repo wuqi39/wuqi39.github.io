@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2024/11/21/hello-world/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>First Post</title>
     <url>/2024/11/21/First-Post/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>示例分类</category>
+      </categories>
+      <tags>
+        <tag>示例标签</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2024/11/21/hello-world/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
