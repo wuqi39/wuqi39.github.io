@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>我的第一篇博客</title>
-    <url>/2024/11/21/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2024/11/21/hello-world/</url>
     <content><![CDATA[]]></content>
@@ -20,5 +15,10 @@
       <tags>
         <tag>示例标签</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>我的第一篇博客</title>
+    <url>/2024/11/21/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
