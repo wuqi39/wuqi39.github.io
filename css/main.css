@@ -1227,7 +1227,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #ff6326;
+    background: #262b8b;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2791,7 +2791,9 @@ header.header {
   }
 }
 .post .description {
-  text-align: center; /* 使文本水平居中 */
-  margin: 20px auto; /* 定义上下间距 */
-  font-size: 1.2em; /* 可选：调整字体大小 */
+  width: 80%; /* 或者其他更小的百分比 */
+  text-align: center;
+  margin: 20px auto;
+  font-size: 1.2em;
+  border: 1px solid #f00; /* 仅用于调试，可以删除 */
 }
