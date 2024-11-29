@@ -1227,7 +1227,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #1b55ff;
+    background: #aa1322;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2789,4 +2789,9 @@ header.header {
   .comments {
     padding: 10px 12px;
   }
+}
+.post .description {
+  text-align: center; /* 使文本水平居中 */
+  margin: 20px auto; /* 定义上下间距 */
+  font-size: 1.2em; /* 可选：调整字体大小 */
 }
