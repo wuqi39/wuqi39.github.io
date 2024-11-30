@@ -1451,7 +1451,7 @@ pre code {
     transition: all 0.2s ease-in-out;
   }
   .links-of-author a::before {
-    background: #8e7901;
+    background: #ffee09;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -1896,7 +1896,7 @@ pre code {
   position: fixed;
   z-index: 50;
   width: var(--progress);
-  left: 0;
+  right: 0;
   top: 0;
 }
 .rtl.post-body p,
