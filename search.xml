@@ -1,29 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>我的第一篇博客</title>
-    <url>/2024/11/21/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<ul>
-<li><h2 id="这是我的第一篇文章"><a href="#这是我的第一篇文章" class="headerlink" title="这是我的第一篇文章"></a>这是我的第一篇文章</h2><p>欢迎来到我的博客！在这里，我将记录我的生活和分享我的感悟。这是一个充满探索和发现的地方，我希望通过文字与大家分享我的点点滴滴。</p>
-<h3 id="小节"><a href="#小节" class="headerlink" title="小节"></a>小节</h3><p>博主天下第一帅~ 当然，这只是开个玩笑。不过，无论如何，我会努力让我的博客充满有趣和有意义的内容，让每一个读者都能找到共鸣。</p>
-<h4 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h4><ul>
-<li>项目 1：</li>
-<li>项目 2：</li>
-<li>项目 3：</li>
-</ul>
-</li>
-</ul>
-<h4 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h4><p><img src="/2024/11/21/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/111.jpg" alt="心有所向，无问东西"></p>
-]]></content>
-      <categories>
-        <category>示例分类</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-        <tag>学习</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2024/11/21/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -45,6 +22,29 @@
       </categories>
       <tags>
         <tag>示例标签</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的第一篇博客</title>
+    <url>/2024/11/21/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<ul>
+<li><h2 id="这是我的第一篇文章"><a href="#这是我的第一篇文章" class="headerlink" title="这是我的第一篇文章"></a>这是我的第一篇文章</h2><p>欢迎来到我的博客！在这里，我将记录我的生活和分享我的感悟。这是一个充满探索和发现的地方，我希望通过文字与大家分享我的点点滴滴。</p>
+<h3 id="小节"><a href="#小节" class="headerlink" title="小节"></a>小节</h3><p>博主天下第一帅~ 当然，这只是开个玩笑。不过，无论如何，我会努力让我的博客充满有趣和有意义的内容，让每一个读者都能找到共鸣。</p>
+<h4 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h4><ul>
+<li>项目 1：</li>
+<li>项目 2：</li>
+<li>项目 3：</li>
+</ul>
+</li>
+</ul>
+<h4 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h4><p><img src="/2024/11/21/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/111.jpg" alt="心有所向，无问东西"></p>
+]]></content>
+      <categories>
+        <category>示例分类</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+        <tag>学习</tag>
       </tags>
   </entry>
 </search>
