@@ -66,14 +66,14 @@
 <li><p><strong>JDK</strong>： 选择你已有的 JDK 版本（如 JDK 17）。</p>
 </li>
 <li><p><strong>Java， 打包方式</strong>： 选择 。<code>Jar</code></p>
-<p><img src="/2024/12/07/Springboot-%E5%85%A5%E9%97%A8/111.jpg" alt="项目的创建-1"></p>
+<p><img src="/2024/12/07/Springboot-%E5%85%A5%E9%97%A8/111.png" alt="项目的创建-1"></p>
 </li>
 </ul>
 </li>
 <li><p><strong>选择相关依赖项</strong></p>
 <ul>
 <li><p>在依赖项选择界面，搜索并选择 。确保选中的 Spring Boot 版本为 3.3 或最新版本。<code>Spring Web</code></p>
-<p><img src="/2024/12/07/Springboot-%E5%85%A5%E9%97%A8/222.jpg" alt="项目的创建-2"></p>
+<p><img src="/2024/12/07/Springboot-%E5%85%A5%E9%97%A8/222.png" alt="项目的创建-2"></p>
 </li>
 </ul>
 </li>
@@ -102,8 +102,7 @@
 <li><p>启动成功后，打开浏览器，在地址栏中输入 ，然后按回车。<code>http://localhost:8080/hello</code></p>
 </li>
 <li><p>如果一切正常，你应该会看到页面上显示 “Hello， World！”。</p>
-<p><img src="/2024/12/07/Springboot-%E5%85%A5%E9%97%A8/333.jpg" alt="运行结果-1"></p>
-<p><img src="/2024/12/07/Springboot-%E5%85%A5%E9%97%A8/333.jpg" alt="图片描述"></p>
+<p><img src="/2024/12/07/Springboot-%E5%85%A5%E9%97%A8/333.png" alt="运行结果-1"></p>
 </li>
 </ul>
 </li>
