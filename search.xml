@@ -90,33 +90,6 @@
       </tags>
   </entry>
   <entry>
-    <title>我的第一篇博客</title>
-    <url>/2024/11/22/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<ul>
-<li><h2 id="这是我的第一篇文章"><a href="#这是我的第一篇文章" class="headerlink" title="这是我的第一篇文章"></a>这是我的第一篇文章</h2><p>欢迎来到我的博客！在这里，我将记录我的生活和分享我的感悟。这是一个充满探索和发现的地方，我希望通过文字与大家分享我的点点滴滴。</p>
-<h3 id="小节"><a href="#小节" class="headerlink" title="小节"></a>小节</h3><p>博主天下第一帅~ 当然，这只是开个玩笑。不过，无论如何，我会努力让我的博客充满有趣和有意义的内容，让每一个读者都能找到共鸣。</p>
-<h4 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h4><ul>
-<li><h6 id="电影推荐："><a href="#电影推荐：" class="headerlink" title="电影推荐："></a>电影推荐：</h6><p>《深海》</p>
-<p>《盗梦空间》</p>
-<p>《变相怪杰》 </p>
-</li>
-<li><h6 id="歌曲推荐："><a href="#歌曲推荐：" class="headerlink" title="歌曲推荐："></a>歌曲推荐：</h6><p>《Incarnation》</p>
-</li>
-<li><h6 id="代码块："><a href="#代码块：" class="headerlink" title="代码块："></a>代码块：</h6></li>
-</ul>
-</li>
-</ul>
-<h4 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h4><p><img src="/2024/11/22/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/111.jpg" alt="心有所向，无问东西"></p>
-]]></content>
-      <categories>
-        <category>默认分类</category>
-      </categories>
-      <tags>
-        <tag>学习</tag>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>idea中自动生成 import 语句</title>
     <url>/2024/12/16/idea%E4%B8%AD%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90-import-%E8%AF%AD%E5%8F%A5/</url>
     <content><![CDATA[<h3 id="idea中自动生成-import-语句"><a href="#idea中自动生成-import-语句" class="headerlink" title="idea中自动生成 import 语句"></a>idea中自动生成 import 语句</h3><h4 id="要在IDEA中显示自动导入的工具提示信息，可以按照以下步骤进行设置："><a href="#要在IDEA中显示自动导入的工具提示信息，可以按照以下步骤进行设置：" class="headerlink" title="要在IDEA中显示自动导入的工具提示信息，可以按照以下步骤进行设置："></a>要在IDEA中显示自动导入的工具提示信息，可以按照以下步骤进行设置：</h4><ol>
@@ -179,7 +152,7 @@
   <entry>
     <title>何为浮躁</title>
     <url>/2024/12/22/%E4%BD%95%E4%B8%BA%E6%B5%AE%E8%BA%81/</url>
-    <content><![CDATA[<h3 id="引言："><a href="#引言：" class="headerlink" title="引言："></a>引言：</h3><p><a href="https://www.bilibili.com/video/BV1VKkbYDESB/?spm_id_from=333.1007.tianma.3-2-8.click&vd_source=b20516047f0214af3ef10db32129bceb"></a></p>
+    <content><![CDATA[<h1 id="引言："><a href="#引言：" class="headerlink" title="引言："></a>引言：</h1><p><a href="https://www.bilibili.com/video/BV1VKkbYDESB/?spm_id_from=333.1007.tianma.3-2-8.click&vd_source=b20516047f0214af3ef10db32129bceb"></a></p>
 <p>该视频主要讲述了浮躁的本质以及如何应对浮躁，提到了十点应对浮躁的方法，具体内容如下：</p>
 <ol>
 <li><strong>直面浮躁，分析成因</strong>：浮躁源于内心的渴望，面对它，分析其产生的原因，能更好地理解自己，为克服浮躁奠定基础。</li>
@@ -205,7 +178,7 @@
 <p>守护内心的宁静，不仅是对个人的一种修炼，更是对社会的一种贡献。一个内心宁静的人，能够在喧嚣中保持清醒，在浮躁中坚守本心，为社会的和谐发展注入一份宁静而坚实的力量。</p>
 <h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>在这个浮躁的时代，守护内心的宁静显得尤为重要。它不仅是我们个人成长的基石，更是我们在喧嚣尘世中找到自我、实现价值的关键。让我们以坚定的信念、沉稳的步伐，在内心深处构筑起宁静的港湾，守得一方净土，绽放属于自己的绚烂光彩，同时也为社会的和谐发展贡献一份宁静而坚实的力量。</p>
 <hr>
-<h3 id="我想说："><a href="#我想说：" class="headerlink" title="我想说："></a>我想说：</h3><p>在中学时，我便了解到，实验中的误差是不可避免的，我们只能尽力减少它。从纯理论的角度来看，实验可以趋近完美，但现实世界中，没有绝对的完美，也没有绝对光滑的表面。理论终究只是理论，无法完全映射现实。</p>
+<h1 id="我想说："><a href="#我想说：" class="headerlink" title="我想说："></a>我想说：</h1><p>在中学时，我便了解到，实验中的误差是不可避免的，我们只能尽力减少它。从纯理论的角度来看，实验可以趋近完美，但现实世界中，没有绝对的完美，也没有绝对光滑的表面。理论终究只是理论，无法完全映射现实。</p>
 <p>从实际出发，理想状态往往是一种无法企及的追求。指引我们前行，却永远无法真正到达。然而，这并不意味着我们要放弃追求。接纳暂时不理想的自己，是一种智慧，但绝不能因此而妥协。妥协意味着放弃努力，意味着向现实低头，而真正的成长，恰恰在于在现实的局限中找到突破的可能。</p>
 <p>为什么我们会感到浮躁？因为我们的内心在抗拒妥协。我们渴望完美，渴望达到理想中的状态，但现实却总是与理想存在差距。这种差距让我们感到焦虑，甚至愤怒。然而，浮躁并不能解决问题，它只会让我们在追求的过程中迷失方向。</p>
 <p>如果真的累了，不妨收弓松弦，给自己一些喘息的空间。但请记住，休息不是放弃，而是为了更好地前行。不能向前时，请别后退。后退只会让我们离目标越来越远(目不目标无所谓，背刺自己太蠢了吧），而短暂的停顿，则是为了积蓄力量，重新出发。</p>
@@ -248,6 +221,33 @@
         <category>感悟</category>
       </categories>
       <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的第一篇博客</title>
+    <url>/2024/11/22/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<ul>
+<li><h2 id="这是我的第一篇文章"><a href="#这是我的第一篇文章" class="headerlink" title="这是我的第一篇文章"></a>这是我的第一篇文章</h2><p>欢迎来到我的博客！在这里，我将记录我的生活和分享我的感悟。这是一个充满探索和发现的地方，我希望通过文字与大家分享我的点点滴滴。</p>
+<h3 id="小节"><a href="#小节" class="headerlink" title="小节"></a>小节</h3><p>博主天下第一帅~ 当然，这只是开个玩笑。不过，无论如何，我会努力让我的博客充满有趣和有意义的内容，让每一个读者都能找到共鸣。</p>
+<h4 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h4><ul>
+<li><h6 id="电影推荐："><a href="#电影推荐：" class="headerlink" title="电影推荐："></a>电影推荐：</h6><p>《深海》</p>
+<p>《盗梦空间》</p>
+<p>《变相怪杰》 </p>
+</li>
+<li><h6 id="歌曲推荐："><a href="#歌曲推荐：" class="headerlink" title="歌曲推荐："></a>歌曲推荐：</h6><p>《Incarnation》</p>
+</li>
+<li><h6 id="代码块："><a href="#代码块：" class="headerlink" title="代码块："></a>代码块：</h6></li>
+</ul>
+</li>
+</ul>
+<h4 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h4><p><img src="/2024/11/22/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/111.jpg" alt="心有所向，无问东西"></p>
+]]></content>
+      <categories>
+        <category>默认分类</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
         <tag>生活</tag>
       </tags>
   </entry>
