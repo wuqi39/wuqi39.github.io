@@ -61,7 +61,8 @@
 
     .new-year-image {
       max-width: 300px;
-      margin: 20px auto; /* 图片居中 */
+      margin: 20px auto;
+      /* 图片居中 */
     }
 
     .input-container {
@@ -284,6 +285,40 @@
   </div>
 </footer>
 
+<!-- 新增 JavaScript 代码 -->
+<script>
+  function generateBlessing() {
+    // 获取用户输入的名字
+    const name = document.getElementById('nameInput').value;
+    // 检查名字是否为空
+    if (name) {
+      // 准备多个祝福语模板
+      const blessings = [
+        `亲爱的 ${name}，2025 年愿你如璀璨星辰，照亮前行的道路，事业节节攀升，生活幸福美满！`,
+        `${name}，新的一年里，愿你的每一天都充满阳光与欢笑，健康常伴，好运相随，梦想都能成真！`,
+        `2025 年，愿 ${name} 拥有无尽的快乐和收获，家庭和睦，友情深厚，未来一片光明！`,
+        `新的一年开启，祝福 ${name} 在 2025 年如同春风化雨，滋润生活的每一处角落，爱情甜蜜，工作顺心！`,
+        `${name}，2025 年愿你像矫健的骏马，在人生的赛道上飞驰，学业有成，财运亨通！`,
+        `2025 到啦，愿 ${name} 生活似诗如画，烦恼统统远离，心情时刻美丽，每一个目标都能顺利达成！`,
+        `亲爱的 ${name}，新的一年祝你智慧如泉涌，创意如繁星，在自己热爱的领域闪闪发光，成就非凡！`,
+        `${name}，2025 年愿你能有“竹杖芒鞋轻胜马”的潇洒，乐观面对一切挑战，收获满满的成长与喜悦！`,
+        `2025 年，愿 ${name} 的生活如同五彩斑斓的画卷，充满惊喜与浪漫，身边永远有温暖相伴！`,
+        `新的一年，希望 ${name} 可以保持对生活的热爱，像花朵一样绽放，将美好传递给身边的每一个人！`,
+        `${name}，在 2025 年里，愿你如同展翅高飞的雄鹰，在广阔的天空中自由翱翔，实现心中的远大抱负！`,
+        `2025 已至，祝福 ${name} 拥有健康的体魄、平和的心态，在岁月的长河中悠然自得，享受生活的馈赠！`
+      ];
+      // 随机选择一个祝福语模板
+      const randomIndex = Math.floor(Math.random() * blessings.length);
+      const blessing = blessings[randomIndex];
+      // 将生成的祝福显示在页面上
+      document.getElementById('result').innerHTML = blessing;
+    } else {
+      // 如果名字为空，提示用户输入名字
+      document.getElementById('result').innerHTML = '请输入名字。';
+    }
+  }
+</script>
+
 <div class="toggle sidebar-toggle" role="button">
   <span class="toggle-line"></span>
   <span class="toggle-line"></span>
@@ -300,4 +335,4 @@
           d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
           fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
   <path
-          d="M115.0,115.0 C114.9,
+          d="M115.0,11
