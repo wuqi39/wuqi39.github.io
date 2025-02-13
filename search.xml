@@ -25,6 +25,66 @@
       </tags>
   </entry>
   <entry>
+    <title>idea中自动生成 import 语句</title>
+    <url>/2024/12/16/idea%E4%B8%AD%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90-import-%E8%AF%AD%E5%8F%A5/</url>
+    <content><![CDATA[<h3 id="idea中自动生成-import-语句"><a href="#idea中自动生成-import-语句" class="headerlink" title="idea中自动生成 import 语句"></a>idea中自动生成 import 语句</h3><h4 id="要在IDEA中显示自动导入的工具提示信息，可以按照以下步骤进行设置："><a href="#要在IDEA中显示自动导入的工具提示信息，可以按照以下步骤进行设置：" class="headerlink" title="要在IDEA中显示自动导入的工具提示信息，可以按照以下步骤进行设置："></a>要在IDEA中显示自动导入的工具提示信息，可以按照以下步骤进行设置：</h4><ol>
+<li>打开 IDEA，点击菜单栏的 “File” -&gt; “Settings”。</li>
+<li>在弹出的设置窗口中，选择 “Editor” -&gt; “General” -&gt; “Auto Import”。</li>
+<li>在 “Auto Import” 设置页面中，找到 “Show the auto-import tooltip” 选项。</li>
+<li>确保 “Show the auto-import tooltip” 选项被勾选上。</li>
+<li>点击 “Apply” 和 “OK” 保存设置。</li>
+</ol>
+<h4 id="在IDEA中，可以使用以下快捷键来导入相关的依赖类："><a href="#在IDEA中，可以使用以下快捷键来导入相关的依赖类：" class="headerlink" title="在IDEA中，可以使用以下快捷键来导入相关的依赖类："></a>在IDEA中，可以使用以下快捷键来导入相关的依赖类：</h4><ol>
+<li><p><strong>自动导入类：</strong></p>
+<ul>
+<li>Windows&#x2F;Linux: <code>Ctrl + Alt + Space</code></li>
+<li>macOS: <code>Command + Option + Space</code></li>
+</ul>
+<p>这个快捷键可以在输入类名时，自动提示导入相关的类。</p>
+</li>
+<li><p><strong>手动导入类：</strong></p>
+<ul>
+<li>Windows&#x2F;Linux: <code>Alt + Enter</code></li>
+<li>macOS: <code>Option + Enter</code></li>
+</ul>
+<p>当你发现某个类没有被正确导入时，可以使用这个快捷键手动导入该类。</p>
+</li>
+<li><p><strong>一键导入所有依赖：</strong></p>
+<ul>
+<li>Windows&#x2F;Linux: <code>Ctrl + Alt + O</code></li>
+<li>macOS: <code>Command + Option + O</code></li>
+</ul>
+<p>这个快捷键可以一次性导入所有缺失的依赖类。</p>
+</li>
+</ol>
+<p>通过使用这些快捷键，可以更加高效地在代码中导入相关的依赖类</p>
+<h3 id="问题："><a href="#问题：" class="headerlink" title="问题："></a>问题：</h3><p><img src="/2024/12/16/idea%E4%B8%AD%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90-import-%E8%AF%AD%E5%8F%A5/111.jpg" alt="自动生成长串的，局部的注解"></p>
+<p><em>自动生成长串的，局部的注解</em></p>
+<h3 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h3><ol>
+<li><p>打开IDEA的设置（Settings）。</p>
+</li>
+<li><p>在设置窗口中，选择 Editor -&gt; Code Style -&gt; Java。</p>
+</li>
+<li><p>在右侧的“Imports”标签下，找到“Class count to use import with ‘*’”，将其设置为一个较大的数值（比如999）。</p>
+</li>
+<li><p>接着，在“Name count to use static import with ‘<em>‘”旁边的下拉菜单中选择“</em> for Lombok annotations”。</p>
+</li>
+<li><p>确保在“Package imports”中没有勾选“Use fully qualified class names”。</p>
+</li>
+<li><p>举例：（当你使用Lombok注解时，IDE会自动生成<code>@Getter</code>和<code>import lombok.Getter;</code>，而不是<code>@lombok.Getter</code>）</p>
+</li>
+</ol>
+<p><img src="/2024/12/16/idea%E4%B8%AD%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90-import-%E8%AF%AD%E5%8F%A5/222.jpg"></p>
+<p><em>简洁，可复用</em></p>
+]]></content>
+      <categories>
+        <category>编程</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Springboot 入门</title>
     <url>/2024/12/07/Springboot-%E5%85%A5%E9%97%A8/</url>
     <content><![CDATA[<h3 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h3><h5 id="什么是SpringBoot？"><a href="#什么是SpringBoot？" class="headerlink" title="什么是SpringBoot？"></a>什么是SpringBoot？</h5><p>SpringBoot是在Spring的基础上发展而来的全新开源框架，其目的是为了简化部署Spring应用程序的配置过程，<strong>简单、灵活、便捷</strong></p>
@@ -81,66 +141,6 @@
 </li>
 </ol>
 <h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>通过以上步骤，就能成功创建一个 Spring Boot 程序！<br>可以尝试在 HelloController 中添加更多的 API 接口，进一步探索 Spring Boot 的强大功能。</p>
-]]></content>
-      <categories>
-        <category>编程</category>
-      </categories>
-      <tags>
-        <tag>学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>idea中自动生成 import 语句</title>
-    <url>/2024/12/16/idea%E4%B8%AD%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90-import-%E8%AF%AD%E5%8F%A5/</url>
-    <content><![CDATA[<h3 id="idea中自动生成-import-语句"><a href="#idea中自动生成-import-语句" class="headerlink" title="idea中自动生成 import 语句"></a>idea中自动生成 import 语句</h3><h4 id="要在IDEA中显示自动导入的工具提示信息，可以按照以下步骤进行设置："><a href="#要在IDEA中显示自动导入的工具提示信息，可以按照以下步骤进行设置：" class="headerlink" title="要在IDEA中显示自动导入的工具提示信息，可以按照以下步骤进行设置："></a>要在IDEA中显示自动导入的工具提示信息，可以按照以下步骤进行设置：</h4><ol>
-<li>打开 IDEA，点击菜单栏的 “File” -&gt; “Settings”。</li>
-<li>在弹出的设置窗口中，选择 “Editor” -&gt; “General” -&gt; “Auto Import”。</li>
-<li>在 “Auto Import” 设置页面中，找到 “Show the auto-import tooltip” 选项。</li>
-<li>确保 “Show the auto-import tooltip” 选项被勾选上。</li>
-<li>点击 “Apply” 和 “OK” 保存设置。</li>
-</ol>
-<h4 id="在IDEA中，可以使用以下快捷键来导入相关的依赖类："><a href="#在IDEA中，可以使用以下快捷键来导入相关的依赖类：" class="headerlink" title="在IDEA中，可以使用以下快捷键来导入相关的依赖类："></a>在IDEA中，可以使用以下快捷键来导入相关的依赖类：</h4><ol>
-<li><p><strong>自动导入类：</strong></p>
-<ul>
-<li>Windows&#x2F;Linux: <code>Ctrl + Alt + Space</code></li>
-<li>macOS: <code>Command + Option + Space</code></li>
-</ul>
-<p>这个快捷键可以在输入类名时，自动提示导入相关的类。</p>
-</li>
-<li><p><strong>手动导入类：</strong></p>
-<ul>
-<li>Windows&#x2F;Linux: <code>Alt + Enter</code></li>
-<li>macOS: <code>Option + Enter</code></li>
-</ul>
-<p>当你发现某个类没有被正确导入时，可以使用这个快捷键手动导入该类。</p>
-</li>
-<li><p><strong>一键导入所有依赖：</strong></p>
-<ul>
-<li>Windows&#x2F;Linux: <code>Ctrl + Alt + O</code></li>
-<li>macOS: <code>Command + Option + O</code></li>
-</ul>
-<p>这个快捷键可以一次性导入所有缺失的依赖类。</p>
-</li>
-</ol>
-<p>通过使用这些快捷键，可以更加高效地在代码中导入相关的依赖类</p>
-<h3 id="问题："><a href="#问题：" class="headerlink" title="问题："></a>问题：</h3><p><img src="/2024/12/16/idea%E4%B8%AD%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90-import-%E8%AF%AD%E5%8F%A5/111.jpg" alt="自动生成长串的，局部的注解"></p>
-<p><em>自动生成长串的，局部的注解</em></p>
-<h3 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h3><ol>
-<li><p>打开IDEA的设置（Settings）。</p>
-</li>
-<li><p>在设置窗口中，选择 Editor -&gt; Code Style -&gt; Java。</p>
-</li>
-<li><p>在右侧的“Imports”标签下，找到“Class count to use import with ‘*’”，将其设置为一个较大的数值（比如999）。</p>
-</li>
-<li><p>接着，在“Name count to use static import with ‘<em>‘”旁边的下拉菜单中选择“</em> for Lombok annotations”。</p>
-</li>
-<li><p>确保在“Package imports”中没有勾选“Use fully qualified class names”。</p>
-</li>
-<li><p>举例：（当你使用Lombok注解时，IDE会自动生成<code>@Getter</code>和<code>import lombok.Getter;</code>，而不是<code>@lombok.Getter</code>）</p>
-</li>
-</ol>
-<p><img src="/2024/12/16/idea%E4%B8%AD%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90-import-%E8%AF%AD%E5%8F%A5/222.jpg"></p>
-<p><em>简洁，可复用</em></p>
 ]]></content>
       <categories>
         <category>编程</category>
