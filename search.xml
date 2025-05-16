@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2024/11/21/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>默认分类</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Springboot 入门</title>
     <url>/2024/12/07/Springboot-%E5%85%A5%E9%97%A8/</url>
     <content><![CDATA[<h2 id="一、概述"><a href="#一、概述" class="headerlink" title="一、概述"></a>一、概述</h2><h3 id="1-1-什么是SpringBoot？"><a href="#1-1-什么是SpringBoot？" class="headerlink" title="1.1 什么是SpringBoot？"></a>1.1 什么是SpringBoot？</h3><p>SpringBoot是在Spring的基础上发展而来的全新开源框架，其目的是为了简化部署Spring应用程序的配置过程，<strong>简单、灵活、便捷</strong>  </p>
@@ -72,30 +96,6 @@ public class HelloWorldApplication &#123;
 ]]></content>
       <categories>
         <category>编程</category>
-      </categories>
-      <tags>
-        <tag>学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2024/11/21/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>默认分类</category>
       </categories>
       <tags>
         <tag>学习</tag>
@@ -252,6 +252,7 @@ public class Example &#123; ... &#125;
     <title>观“如果你野心勃勃但懒惰？”有感</title>
     <url>/2025/05/16/%E8%A7%82%E2%80%9C%E5%A6%82%E6%9E%9C%E4%BD%A0%E9%87%8E%E5%BF%83%E5%8B%83%E5%8B%83%E4%BD%86%E6%87%92%E6%83%B0%EF%BC%9F%E2%80%9D%E6%9C%89%E6%84%9F/</url>
     <content><![CDATA[<h2 id="一、引言"><a href="#一、引言" class="headerlink" title="一、引言"></a>一、引言</h2><p>近期观看心理区博主解读“如果你野心勃勃但懒惰？陀思妥耶夫斯基教你，重获心力”这一视频，博主以《罪与罚》为切入点，剖析了野心与懒惰撕扯下的人性困境。这部文学经典不仅是对犯罪心理的深刻洞察，更如一面镜子，映照出当代人在理想与行动间的挣扎。以下，结合视频内容与原著内核，展开几点思考。  </p>
+<p><strong>视频链接</strong>：<br><a href="https://www.bilibili.com/video/BV1oZGdzPEya/?share_source=copy_web&vd_source=94c3b1124b1566ac9c5cb810414f4aca">【陀思妥耶夫斯基教你重获心力】</a></p>
 <h2 id="二、内容大意"><a href="#二、内容大意" class="headerlink" title="二、内容大意"></a>二、内容大意</h2><h3 id="（一）困局·崩塌·博弈·救赎：野心与懒惰的心理史诗"><a href="#（一）困局·崩塌·博弈·救赎：野心与懒惰的心理史诗" class="headerlink" title="（一）困局·崩塌·博弈·救赎：野心与懒惰的心理史诗"></a>（一）困局·崩塌·博弈·救赎：野心与懒惰的心理史诗</h3><p>从拉斯科尔尼科夫的生存困境到犯罪后的精神崩解，《罪与罚》构建了一个野心与懒惰相互撕扯的人性实验室。这一过程可拆解为四重递进的心理维度，既是文学经典的叙事脉络，也是现代人自我觉醒的镜像参照。  </p>
 <h4 id="1-认知迷障：困局中的野心异化"><a href="#1-认知迷障：困局中的野心异化" class="headerlink" title="1. 认知迷障：困局中的野心异化"></a>1. 认知迷障：困局中的野心异化</h4><p><strong>1.1 贫困循环中的归因谬误</strong><br>身处社会底层的拉斯科尔尼科夫，将贫困归咎于“格局太小”而非结构性困境，陷入“贫穷-自卑-逃避”的闭环。这种将现实矛盾简化为“勇气不足”的认知偏差，恰似当代人面对焦虑时的典型反应——既渴望突破现状，又用“宏大理想”掩饰不愿行动的惰性，在空想中消耗本可用于改变的能量。  </p>
 <p><strong>1.2 理想主义的道德伪装</strong><br>妹妹的婚姻危机成为其犯罪的“正义”借口。他以“替天行道”包装暴力冲动，本质是用“强者理论”合理化逃避劳动的怯懦。这种现象揭示了野心与行动脱节的深层悖论：人们沉迷于“成为英雄”的幻想，却惮于“做好小事”的踏实，最终让理想沦为懒惰的遮羞布。  </p>
@@ -272,11 +273,9 @@ public class Example &#123; ... &#125;
 <h3 id="（二）接纳不完美开始，对抗“准备癖”陷阱"><a href="#（二）接纳不完美开始，对抗“准备癖”陷阱" class="headerlink" title="（二）接纳不完美开始，对抗“准备癖”陷阱"></a>（二）接纳不完美开始，对抗“准备癖”陷阱</h3><p>拉斯科尔尼科夫因“等状态完美再行动”而陷入拖延，最终走向极端。现实中，我们常以“时机不成熟”“能力不足”为借口逃避开始。正如视频强调：“真正的行动力，是与懒惰共处的勇气。”先完成、再完美，在行动中修正方向，远胜在空想中自我消耗。  </p>
 <h3 id="（三）以“体验感”替代“意义感”，激活内在动力"><a href="#（三）以“体验感”替代“意义感”，激活内在动力" class="headerlink" title="（三）以“体验感”替代“意义感”，激活内在动力"></a>（三）以“体验感”替代“意义感”，激活内在动力</h3><p>当我们过度追寻“生活的意义”时，往往陷入虚无；而专注于“如何生活”的具体体验，反而能收获真实的充实。如视频所述，“爱生活本身”意味着：在晨跑的汗水中感受身体的活力，在专注工作的时光里体会心流的愉悦，在与他人的联结中触摸生命的温度——这些细微的真实感，正是对抗懒惰与焦虑的良药。  </p>
 <h2 id="五、结语"><a href="#五、结语" class="headerlink" title="五、结语"></a>五、结语</h2><p>《罪与罚》的悲剧内核，在于主角用极端方式逃避“成为自己”的责任；而视频的现实意义，在于借文学经典唤醒我们对“野心-懒惰”困境的觉知。愿我们都能走出拉斯科尔尼科夫的心理迷宫，不再以“理想主义”为懒惰遮羞，而是以微小却持续的行动，在真实的生活土壤中培育属于自己的生命力。毕竟，人生的答案，不在空想的云端，而在每一个脚踏实地的当下。 </p>
-<p>之前，总觉得自己对人生与生活看的透彻，一眼可以望到头的未来；总觉得拼尽全力也不一定能赢，顺其自然未必不能天降馅饼；<br>因为忧虑未来，怀恋过去，而不能专注于当下，搞得处处是缺憾；<br>因为做不到完美，就不去行动，所以得事事无成；<br>因为沉迷简单容易的娱乐，畏惧复杂艰难的成就，弄的萎靡不振；<br>真正的救赎始于直面内心的裂痕 —— 承认我们既渴望巅峰俯瞰的荣耀，又畏惧攀登时的荆棘，既沉迷多巴胺制造的幻梦，又厌恶镜中那个一事无成的自己。</p>
+<p>之前，总觉得自己对人生与生活看的透彻，一眼可以望到头的未来；总觉得拼尽全力也不一定能赢，顺其自然未必不能天降馅饼；<br>因为忧虑未来，怀恋过去，而不能专注于当下，搞得处处是缺憾；<br>因为做不到完美，就不去行动，所以得事事无成；<br>因为沉迷简单容易的娱乐，畏惧复杂艰难的成就，弄的精神萎靡不振；<br>真正的救赎始于直面内心的裂痕 —— 承认我们既渴望巅峰俯瞰的荣耀，又畏惧攀登时的荆棘，既沉迷多巴胺制造的幻梦，又厌恶镜中那个一事无成的自己。</p>
 <p>也许又是一次短促失败的觉醒；<br>「去触摸生活的粗粝肌理」—— 在早起的困倦中感受清醒的重量，在代码调试的错误里触摸进步的质感，在文字修改的删节中体会创造的疼痛。这些不那么「快乐」的瞬间，恰是将野心从空想拉回现实的锚点，是让生命在具体行动中落地生根的开始。</p>
-<pre><code>                                                                                                ————敬此刻的我
-</code></pre>
-<p><strong>视频链接</strong>：<br><a href="https://www.bilibili.com/video/BV1oZGdzPEya/?share_source=copy_web&vd_source=94c3b1124b1566ac9c5cb810414f4aca">【陀思妥耶夫斯基教你重获心力】</a></p>
+<p>敬此刻的自己</p>
 ]]></content>
       <categories>
         <category>感悟</category>
