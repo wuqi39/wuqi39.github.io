@@ -1,30 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2024/11/21/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>默认分类</category>
-      </categories>
-      <tags>
-        <tag>学习</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Springboot 入门</title>
     <url>/2024/12/07/Springboot-%E5%85%A5%E9%97%A8/</url>
     <content><![CDATA[<h2 id="一、概述"><a href="#一、概述" class="headerlink" title="一、概述"></a>一、概述</h2><h3 id="1-1-什么是SpringBoot？"><a href="#1-1-什么是SpringBoot？" class="headerlink" title="1.1 什么是SpringBoot？"></a>1.1 什么是SpringBoot？</h3><p>SpringBoot是在Spring的基础上发展而来的全新开源框架，其目的是为了简化部署Spring应用程序的配置过程，<strong>简单、灵活、便捷</strong>  </p>
@@ -222,6 +198,30 @@ public class Example &#123; ... &#125;
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/2024/11/21/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>默认分类</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>我的第一篇博客</title>
     <url>/2024/11/22/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<ul>
@@ -269,6 +269,7 @@ public class Example &#123; ... &#125;
 <h2 id="三、摘选"><a href="#三、摘选" class="headerlink" title="三、摘选"></a>三、摘选</h2><p>你所经历的一切<br>都是为了唤醒你<br>如果爱不能唤醒你<br>那就用痛苦唤醒你<br>如果痛苦不能唤醒你<br>那就用更大的痛苦唤醒你<br>如果更大的痛苦不能唤醒你<br>那就用失去唤醒你<br>如果失去不能唤醒你<br>那就用生命唤醒你<br>如果生命不能唤醒你<br>那就用轮回唤醒你<br>直到你醒来  </p>
 <p>我们喜欢眯起眼睛看这个世界，我们总认为自己知晓了生活的意义，我们总想凌驾于生活之上，成为一个知晓全部秘密的人；我们构建自己的理论，确认自己的目标，并在自己的理论中成为王者。我们非常自信地站在起点去想象未来的生活，我们认为选择A就一定会遇到这些，选择b就一定会过上那样的生活。</p>
 <p>生活中的很多烦恼，我们内心所受到的刑罚，<br>都是因为我们太过于想要找到生活的意义，而忽视了真实的生活，<br>不如，就这样生活吧。</p>
+<p><img src="/2025/05/16/%E8%A7%82%E2%80%9C%E5%A6%82%E6%9E%9C%E4%BD%A0%E9%87%8E%E5%BF%83%E5%8B%83%E5%8B%83%E4%BD%86%E6%87%92%E6%83%B0%EF%BC%9F%E2%80%9D%E6%9C%89%E6%84%9F/111.png" alt="罪与罚">  </p>
 <h2 id="四、现实观照：如何破解“野心-懒惰”的死循环？"><a href="#四、现实观照：如何破解“野心-懒惰”的死循环？" class="headerlink" title="四、现实观照：如何破解“野心-懒惰”的死循环？"></a>四、现实观照：如何破解“野心-懒惰”的死循环？</h2><h3 id="（一）拆解宏大目标，建立微行动系统"><a href="#（一）拆解宏大目标，建立微行动系统" class="headerlink" title="（一）拆解宏大目标，建立微行动系统"></a>（一）拆解宏大目标，建立微行动系统</h3><p>视频指出，野心之所以沦为空想，源于目标的“抽象化”。可借鉴《罪与罚》中拉斯科尔尼科夫的教训，将“改变命运”的宏大愿景，拆解为“每日阅读30页书”“完成一个技能练习”等具体行动，以可量化的“微成功”积累心力。  </p>
 <h3 id="（二）接纳不完美开始，对抗“准备癖”陷阱"><a href="#（二）接纳不完美开始，对抗“准备癖”陷阱" class="headerlink" title="（二）接纳不完美开始，对抗“准备癖”陷阱"></a>（二）接纳不完美开始，对抗“准备癖”陷阱</h3><p>拉斯科尔尼科夫因“等状态完美再行动”而陷入拖延，最终走向极端。现实中，我们常以“时机不成熟”“能力不足”为借口逃避开始。正如视频强调：“真正的行动力，是与懒惰共处的勇气。”先完成、再完美，在行动中修正方向，远胜在空想中自我消耗。  </p>
 <h3 id="（三）以“体验感”替代“意义感”，激活内在动力"><a href="#（三）以“体验感”替代“意义感”，激活内在动力" class="headerlink" title="（三）以“体验感”替代“意义感”，激活内在动力"></a>（三）以“体验感”替代“意义感”，激活内在动力</h3><p>当我们过度追寻“生活的意义”时，往往陷入虚无；而专注于“如何生活”的具体体验，反而能收获真实的充实。如视频所述，“爱生活本身”意味着：在晨跑的汗水中感受身体的活力，在专注工作的时光里体会心流的愉悦，在与他人的联结中触摸生命的温度——这些细微的真实感，正是对抗懒惰与焦虑的良药。  </p>
